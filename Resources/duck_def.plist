@@ -1,0 +1,18 @@
+{
+	sprite = "duck-1.png";
+	sheet = "duck+spaceship";
+	states = {
+		idle = {
+			animation = {
+				type = frame;
+				duration = ".1";
+				key = "duck-";
+				startframe = 1;
+				endframe = 7;
+				forever = YES;
+				reverse = YES;
+			};
+		};
+		die = {};
+	};
+}

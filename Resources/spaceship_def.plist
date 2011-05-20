@@ -1,0 +1,28 @@
+{
+	sprite = "spaceship-1.png";
+	sheet = "duck+spaceship";
+	states = {
+		left = {
+			sprite = "spaceship-3.png";
+		};
+		right = {
+			sprite = "spaceship-2.png";
+		};
+		idle = {
+			sprite = "spaceship-1.png";
+		};
+		die = {
+			animation = {
+				duration = ".1";
+				restore = NO;
+				reverse = NO;
+				key = elephant;
+				startframe = 8;
+				endframe = 13;
+				type = frame;
+				forever = YES;
+				canstop = YES;
+			};
+		};
+	};
+}

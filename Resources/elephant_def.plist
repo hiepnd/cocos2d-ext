@@ -1,0 +1,51 @@
+{
+	sprite = "elephant10.png";
+	sheet = elephant;
+	states = {
+		die = {
+			animation = {
+				duration = ".1";
+				restore = NO;
+				reverse = NO;
+				key = elephant;
+				startframe = 2;
+				endframe = 7;
+				type = frame;
+				forever = NO;
+				canstop = YES;
+			};
+		};
+		fall = {
+			sprite = "elephant1.png";
+		};
+		idle = {
+			sprite = "elephant8.png";
+		};
+		walk = {
+			animation = {
+				duration = ".1";
+				restore = NO;
+				reverse = NO;
+				key = elephant;
+				startframe = 8;
+				endframe = 13;
+				type = frame;
+				forever = YES;
+				canstop = YES;
+			};
+		};
+		go = {
+			animation = {
+				duration = ".05";
+				restore = NO;
+				reverse = NO;
+				key = elephant;
+				startframe = 8;
+				endframe = 13;
+				type = frame;
+				forever = NO;
+				canstop = YES;
+			};
+		};
+	};
+}

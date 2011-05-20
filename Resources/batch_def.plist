@@ -1,0 +1,33 @@
+{
+	sprite = "fat1.png";
+	sheet = batch;
+	states = {
+		go = {
+			animation = {
+				duration = ".1";
+				restore = NO;
+				reverse = NO;
+				key = fat;
+				startframe = 1;
+				endframe = 3;
+				type = frame;
+				forever = YES;
+				canstop = YES;
+			};
+		};
+	};
+	child = {
+		cow = {
+			x = 100;
+			y = 100;
+			extern = "batch_cow_def.plist";
+			state = go;
+		};
+		cat = {
+			x = "-50";
+			y = "-50";
+			extern = "batch_cat_def.plist";
+			state = go;
+		};
+	};
+}

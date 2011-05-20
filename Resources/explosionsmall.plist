@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>explosion1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1}, {11, 13}}</string>
+			<key>offset</key>
+			<string>{-3.5, -0.5}</string>
+			<key>sourceColorRect</key>
+			<string>{{21, 24}, {11, 13}}</string>
+			<key>sourceSize</key>
+			<string>{60, 60}</string>
+		</dict>
+		<key>explosion10.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{13, 1}, {28, 26}}</string>
+			<key>offset</key>
+			<string>{-1, -3}</string>
+			<key>sourceColorRect</key>
+			<string>{{15, 20}, {28, 26}}</string>
+			<key>sourceSize</key>
+			<string>{60, 60}</string>
+		</dict>
+		<key>explosion11.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{42, 1}, {30, 27}}</string>
+			<key>offset</key>
+			<string>{-2, -3.5}</string>
+			<key>sourceColorRect</key>
+			<string>{{13, 20}, {30, 27}}</string>
+			<key>sourceSize</key>
+			<string>{60, 60}</string>
+		</dict>
+		<key>explosion12.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{73, 1}, {31, 29}}</string>
+			<key>offset</key>
+			<string>{-2.5, -4.5}</string>
+			<key>sourceColorRect</key>
+			<string>{{12, 20}, {31, 29}}</string>
+			<key>sourceSize</key>
+			<string>{60, 60}</string>
+		</dict>
+		<key>explosion13.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{105, 1}, {32, 30}}</string>
+			<key>offset</key>
+			<string>{-3, -5}</string>
+			<key>sourceColorRect</key>
+			<string>{{11, 20}, {32, 30}}</string>
+			<key>sourceSize</key>
+			<string>{60, 60}</string>
+		</dict>
+		<key>explosion14.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{138, 1}, {34, 31}}</string>
+			<key>offset</key>
+			<string>{-4, -5.5}</string>
+			<key>sourceColorRect</key>
+			<string>{{9, 20}, {34, 31}}</string>
+			<key>sourceSize</key>
+			<string>{60, 60}</string>
+		</dict>
+		<key>explosion15.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{173, 1}, {11, 13}}</string>
+			<key>offset</key>
+			<string>{-3.5, -0.5}</string>
+			<key>sourceColorRect</key>
+			<string>{{21, 24}, {11, 13}}</string>
+			<key>sourceSize</key>
+			<string>{60, 60}</string>
+		</dict>
+		<key>explosion2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{185, 1}, {7, 12}}</string>
+			<key>offset</key>
+			<string>{-3.5, -2}</string>
+			<key>sourceColorRect</key>
+			<string>{{23, 26}, {7, 12}}</string>
+			<key>sourceSize</key>
+			<string>{60, 60}</string>
+		</dict>
+		<key>explosion3.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{193, 1}, {14, 15}}</string>
+			<key>offset</key>
+			<string>{-4, -1.5}</string>
+			<key>sourceColorRect</key>
+			<string>{{19, 24}, {14, 15}}</string>
+			<key>sourceSize</key>
+			<string>{60, 60}</string>
+		</dict>
+		<key>explosion4.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{208, 1}, {18, 18}}</string>
+			<key>offset</key>
+			<string>{-4, -1}</string>
+			<key>sourceColorRect</key>
+			<string>{{17, 22}, {18, 18}}</string>
+			<key>sourceSize</key>
+			<string>{60, 60}</string>
+		</dict>
+		<key>explosion5.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{227, 1}, {21, 22}}</string>
+			<key>offset</key>
+			<string>{-4.5, -0}</string>
+			<key>sourceColorRect</key>
+			<string>{{15, 19}, {21, 22}}</string>
+			<key>sourceSize</key>
+			<string>{60, 60}</string>
+		</dict>
+		<key>explosion6.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{249, 1}, {22, 22}}</string>
+			<key>offset</key>
+			<string>{-4, -1}</string>
+			<key>sourceColorRect</key>
+			<string>{{15, 20}, {22, 22}}</string>
+			<key>sourceSize</key>
+			<string>{60, 60}</string>
+		</dict>
+		<key>explosion7.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{272, 1}, {23, 23}}</string>
+			<key>offset</key>
+			<string>{-3.5, -1.5}</string>
+			<key>sourceColorRect</key>
+			<string>{{15, 20}, {23, 23}}</string>
+			<key>sourceSize</key>
+			<string>{60, 60}</string>
+		</dict>
+		<key>explosion8.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{296, 1}, {25, 24}}</string>
+			<key>offset</key>
+			<string>{-2.5, -2}</string>
+			<key>sourceColorRect</key>
+			<string>{{15, 20}, {25, 24}}</string>
+			<key>sourceSize</key>
+			<string>{60, 60}</string>
+		</dict>
+		<key>explosion9.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{322, 1}, {26, 25}}</string>
+			<key>offset</key>
+			<string>{-1, -2.5}</string>
+			<key>sourceColorRect</key>
+			<string>{{16, 20}, {26, 25}}</string>
+			<key>sourceSize</key>
+			<string>{60, 60}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>1</integer>
+		<key>size</key>
+		<string>{512, 32}</string>
+	</dict>
+</dict>
+</plist>

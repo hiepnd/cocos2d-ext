@@ -1,0 +1,51 @@
+{
+	sprite = "1.png";
+	sheet = bomb;
+	states = {
+		1 = {
+			sprite = "1.png";
+		};
+		2 = {
+			sprite = "2.png";
+		};
+		3 = {
+			sprite = "3.png";
+		};
+		4 = {
+			sprite = "4.png";
+		};
+		5 = {
+			sprite = "5.png";
+		};
+		6 = {
+			sprite = "6.png";
+		};
+		7 = {
+			sprite = "7.png";
+		};
+		8 = {
+			sprite = "8.png";
+		};
+		9 = {
+			sprite = "9.png";
+		};
+		10 = {
+			sprite = "10.png";
+		};
+		11 = {
+			sprite = "11.png";
+		};
+		12 = {
+			sprite = "12.png";
+		};
+		13 = {
+			sprite = "13.png";
+		};
+		14 = {
+			sprite = "14.png";
+		};
+		15 = {
+			sprite = "15.png";
+		};
+	};
+}

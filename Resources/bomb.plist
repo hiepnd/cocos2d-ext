@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{80, 21}, {6, 8}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>sourceColorRect</key>
+			<string>{{5, 2}, {6, 8}}</string>
+			<key>sourceSize</key>
+			<string>{16, 12}</string>
+		</dict>
+		<key>10.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{9, 42}, {13, 8}}</string>
+			<key>offset</key>
+			<string>{-0.5, -0}</string>
+			<key>sourceColorRect</key>
+			<string>{{1, 2}, {13, 8}}</string>
+			<key>sourceSize</key>
+			<string>{16, 12}</string>
+		</dict>
+		<key>11.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{27, 41}, {13, 8}}</string>
+			<key>offset</key>
+			<string>{-0.5, -0}</string>
+			<key>sourceColorRect</key>
+			<string>{{1, 2}, {13, 8}}</string>
+			<key>sourceSize</key>
+			<string>{16, 12}</string>
+		</dict>
+		<key>12.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{46, 40}, {13, 8}}</string>
+			<key>offset</key>
+			<string>{-0.5, -0}</string>
+			<key>sourceColorRect</key>
+			<string>{{1, 2}, {13, 8}}</string>
+			<key>sourceSize</key>
+			<string>{16, 12}</string>
+		</dict>
+		<key>13.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{66, 41}, {13, 8}}</string>
+			<key>offset</key>
+			<string>{-0.5, -0}</string>
+			<key>sourceColorRect</key>
+			<string>{{1, 2}, {13, 8}}</string>
+			<key>sourceSize</key>
+			<string>{16, 12}</string>
+		</dict>
+		<key>14.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{87, 41}, {14, 8}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>sourceColorRect</key>
+			<string>{{1, 2}, {14, 8}}</string>
+			<key>sourceSize</key>
+			<string>{16, 12}</string>
+		</dict>
+		<key>15.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{107, 41}, {13, 8}}</string>
+			<key>offset</key>
+			<string>{-0.5, -0}</string>
+			<key>sourceColorRect</key>
+			<string>{{1, 2}, {13, 8}}</string>
+			<key>sourceSize</key>
+			<string>{16, 12}</string>
+		</dict>
+		<key>2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{22, 4}, {6, 8}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>sourceColorRect</key>
+			<string>{{5, 2}, {6, 8}}</string>
+			<key>sourceSize</key>
+			<string>{16, 12}</string>
+		</dict>
+		<key>3.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{41, 5}, {6, 8}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>sourceColorRect</key>
+			<string>{{5, 2}, {6, 8}}</string>
+			<key>sourceSize</key>
+			<string>{16, 12}</string>
+		</dict>
+		<key>4.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{60, 3}, {7, 8}}</string>
+			<key>offset</key>
+			<string>{0.5, -0}</string>
+			<key>sourceColorRect</key>
+			<string>{{5, 2}, {7, 8}}</string>
+			<key>sourceSize</key>
+			<string>{16, 12}</string>
+		</dict>
+		<key>5.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{81, 4}, {5, 8}}</string>
+			<key>offset</key>
+			<string>{0.5, -0}</string>
+			<key>sourceColorRect</key>
+			<string>{{6, 2}, {5, 8}}</string>
+			<key>sourceSize</key>
+			<string>{16, 12}</string>
+		</dict>
+		<key>6.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{8, 14}, {6, 8}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>sourceColorRect</key>
+			<string>{{5, 2}, {6, 8}}</string>
+			<key>sourceSize</key>
+			<string>{16, 12}</string>
+		</dict>
+		<key>7.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{52, 23}, {6, 8}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>sourceColorRect</key>
+			<string>{{5, 2}, {6, 8}}</string>
+			<key>sourceSize</key>
+			<string>{16, 12}</string>
+		</dict>
+		<key>8.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{96, 20}, {6, 8}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>sourceColorRect</key>
+			<string>{{5, 2}, {6, 8}}</string>
+			<key>sourceSize</key>
+			<string>{16, 12}</string>
+		</dict>
+		<key>9.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{110, 26}, {6, 8}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>sourceColorRect</key>
+			<string>{{5, 2}, {6, 8}}</string>
+			<key>sourceSize</key>
+			<string>{16, 12}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>1</integer>
+		<key>size</key>
+		<string>{128, 64}</string>
+	</dict>
+</dict>
+</plist>

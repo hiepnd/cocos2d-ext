@@ -1,0 +1,19 @@
+{
+	sheet = explosionsmall;
+	sprite = "explosion1.png";
+	states = {
+		die = {
+			animation = {
+				duration = ".03";
+				restore = NO;
+				reverse = NO;
+				key = explosion;
+				startframe = 1;
+				endframe = 15;
+				type = frame;
+				forever = NO;
+			};
+		};
+	};
+	action = {};
+}

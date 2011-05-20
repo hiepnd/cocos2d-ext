@@ -1,0 +1,6 @@
+{
+	sprite = "12px-red-arrow.png";
+	sheet = "duck+spaceship";
+	states = {};
+	child = {};
+}

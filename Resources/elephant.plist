@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>elephant1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{431, 50}, {37, 56}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {37, 56}}</string>
+			<key>sourceSize</key>
+			<string>{37, 56}</string>
+		</dict>
+		<key>elephant10.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{369, 50}, {61, 40}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>sourceColorRect</key>
+			<string>{{0, 1}, {61, 39}}</string>
+			<key>sourceSize</key>
+			<string>{61, 40}</string>
+		</dict>
+		<key>elephant11.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{307, 50}, {61, 40}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {61, 40}}</string>
+			<key>sourceSize</key>
+			<string>{61, 40}</string>
+		</dict>
+		<key>elephant12.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{245, 50}, {61, 40}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>sourceColorRect</key>
+			<string>{{0, 1}, {60, 39}}</string>
+			<key>sourceSize</key>
+			<string>{61, 40}</string>
+		</dict>
+		<key>elephant13.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{183, 50}, {61, 40}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {61, 40}}</string>
+			<key>sourceSize</key>
+			<string>{61, 40}</string>
+		</dict>
+		<key>elephant2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{92, 50}, {90, 48}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>sourceColorRect</key>
+			<string>{{16, 0}, {45, 48}}</string>
+			<key>sourceSize</key>
+			<string>{90, 48}</string>
+		</dict>
+		<key>elephant3.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 50}, {90, 48}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>sourceColorRect</key>
+			<string>{{7, 4}, {67, 44}}</string>
+			<key>sourceSize</key>
+			<string>{90, 48}</string>
+		</dict>
+		<key>elephant4.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{398, 1}, {90, 48}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>sourceColorRect</key>
+			<string>{{2, 0}, {85, 48}}</string>
+			<key>sourceSize</key>
+			<string>{90, 48}</string>
+		</dict>
+		<key>elephant5.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{307, 1}, {90, 48}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>sourceColorRect</key>
+			<string>{{0, 2}, {90, 46}}</string>
+			<key>sourceSize</key>
+			<string>{90, 48}</string>
+		</dict>
+		<key>elephant6.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{216, 1}, {90, 48}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>sourceColorRect</key>
+			<string>{{5, 15}, {85, 33}}</string>
+			<key>sourceSize</key>
+			<string>{90, 48}</string>
+		</dict>
+		<key>elephant7.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{125, 1}, {90, 48}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>sourceColorRect</key>
+			<string>{{5, 15}, {85, 33}}</string>
+			<key>sourceSize</key>
+			<string>{90, 48}</string>
+		</dict>
+		<key>elephant8.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{63, 1}, {61, 40}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>sourceColorRect</key>
+			<string>{{0, 1}, {60, 39}}</string>
+			<key>sourceSize</key>
+			<string>{61, 40}</string>
+		</dict>
+		<key>elephant9.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1}, {61, 40}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {60, 40}}</string>
+			<key>sourceSize</key>
+			<string>{61, 40}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>1</integer>
+		<key>size</key>
+		<string>{512, 128}</string>
+	</dict>
+</dict>
+</plist>

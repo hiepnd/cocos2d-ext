@@ -1,0 +1,19 @@
+{
+	sprite = "fat1.png";
+	sheet = batch;
+	states = {
+		go = {
+			animation = {
+				duration = ".1";
+				restore = NO;
+				reverse = NO;
+				key = cat;
+				startframe = 1;
+				endframe = 3;
+				type = frame;
+				forever = YES;
+				canstop = YES;
+			};
+		};
+	};
+}

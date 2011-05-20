@@ -1,0 +1,54 @@
+{
+	sprite = "circle.png";
+	child = {
+		explosion = {
+			x = 0;
+			y = 0;
+			z = "-10";
+			tag = 124;
+			extern = "explosionsmalldef.plist";
+		};
+		time = {
+			x = 0;
+			y = 0;
+			z = "-10";
+			tag = 124;
+			extern = "timedef.plist";
+		};
+	};
+	states = {
+		1 = {
+			animation = {
+				duration = 1;
+				next = explosion;
+			};
+		};
+		2 = {
+			animation = {
+				duration = 1;
+				next = 1;
+			};
+		};
+		3 = {
+			animation = {
+				duration = 1;
+				next = 2;
+			};
+		};
+		4 = {
+			animation = {
+				duration = 1;
+				next = 3;
+			};
+		};
+		5 = {
+			animation = {
+				next = 4;
+				duration = 1;
+			};
+		};
+		explosion = {};
+		idle = {};
+	};
+	actions = {};
+}
