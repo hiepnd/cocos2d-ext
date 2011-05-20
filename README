@@ -1,0 +1,45 @@
+Some classes included in this project:
+
++ Utils
+	Contains some util functions
+
++ Config
+	Util class to deal with plist. Providing simple way to read/write plist by path (ie. "user/info/name").
+	This class is very useful to store your game configuration (that why it is named "Config"), 
+	level data and other information that is not too large.
+	It also support encryption (AES256), so you are no longer worry about users hacking into your
+	data.
+
++ ScoreManager
+	If you want to save hight scores for your game, this class is a good choice. You can have any score categry
+	(ie. one categry for Touch Mode and one categry for Tilting Mode). Scores can be sorted ACS
+	or DESC. ScoreManager uses to store your scores.  	
+		
++ CCSlider
+	I write this class to achieve a game music volume control.
+	
++ GameSound
+	A wrapper of SimpleAudioEngine. The idea is to do everything related to music & sound in this
+	class. GameSound automatically store the last configuration you made to it in NSUserDefaults
+	(ie. music volume, sound effect volume) and when the GameSound is initialized, the last 
+	configuration is restored.
+	
++ CCBlade 
+	Similar to the knife blade effect you see in famous Fruit Ninja	
+	
++ Ragdol
+	Ragdol implementation with Box2D
+	
++ CCComponent (subclass of CCSprite)
+	I write this class with the idea to encapsulate everything regarding to a game actor. Don't 
+	confuse the word "component" in CCComponent with Component Based architecture. This class has
+	nothing to do with Component Based architecture. Long story short, one of the most benifit of 
+	CCComponent that I've used in many projects is to simplify the manipulation of actore's "states".
+	A "state" is an action that an actor can do. CCCompnent supports some kinds of states (rotate, 
+	scale and animating frames). For example, if you need to animate a Lion to simulate a "Run" action,
+	you need a couple lines of code (actually I don't remember how to do this). With CCComponent, you just need 
+	to define this action as a state, name "Run", in a plist (with predefined keys), CCComponent reads this plist,
+	parse it and do every heavy things behind the scene, and all you need to do is an assigment:
+		lion.state = @"Run"
+	This save a lot of my time :).
+	It also have many other features. I will update this README soon.
