@@ -13,10 +13,10 @@ Some classes included in this project:
 + ScoreManager
 	If you want to save hight scores for your game, this class is a good choice. You can have any score categry
 	(ie. one categry for Touch Mode and one categry for Tilting Mode). Scores can be sorted ACS
-	or DESC. ScoreManager uses to store your scores.  	
+	or DESC. ScoreManager uses Config to store your scores.  	
 		
 + CCSlider
-	I write this class to achieve a game music volume control.
+	I write this class to achieve a game music volume control. 
 	
 + GameSound
 	A wrapper of SimpleAudioEngine. The idea is to do everything related to music & sound in this
@@ -27,8 +27,8 @@ Some classes included in this project:
 + CCBlade 
 	Similar to the knife blade effect you see in famous Fruit Ninja	
 	
-+ Ragdol
-	Ragdol implementation with Box2D
++ Ragdoll
+	Ragdoll implementation with Box2D
 	
 + CCComponent (subclass of CCSprite)
 	I write this class with the idea to encapsulate everything regarding to a game actor. Don't 
