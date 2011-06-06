@@ -1,7 +1,17 @@
-Some classes included in this project:
+Some classes/categories included in this project:
+
++ CCNode+Ext
+    This category defines the "collidable" rectangle of a node, @selector(rect), which has the default 
+    returned value is a rectangle has origin at (0,0) and the size is equal to the node's contentSize. 
+    You can check if two nodes are overlapped with @selector(isCollideWithNode:). This method uses 
+    Separating Axis Theorem to determine the intersection beteween the nodes' rects. This method is very
+    useful for simple collision detection.
+    This category also contains methods to convert a point from another node's coordinate to the 
+    caller node's coordinate, and to check if a node contains a point in world coordinate... 
+
 
 + Utils
-	Contains some util functions
+	Contains some utility functions
 
 + Config
 	Util class to deal with plist. Providing simple way to read/write plist by path (ie. "user/info/name").
@@ -9,12 +19,37 @@ Some classes included in this project:
 	level data and other information that is not too large.
 	It also support encryption (AES256), so you are no longer worry about users hacking into your
 	data.
+    You can use Config as singleton:
+    //Return the shared Config instance of file "config.plist" in Document directory
+    Config *config = [Config instanceForFile:[Utils pathForFileInDocument:@"config.plist"]];
+    //When you're no longer need it 
+    [Config removeInstance:config]; 
+    //Or [Config removeInstanceForFile:[Utils pathForFileInDocument:@"config.plist"]];
+
+    You can also create non-singleton instance with 
+    [[Config alloc] initWithFile:[Utils pathForFileInDocument:@"config.plist"]];
 
 + ScoreManager
-	If you want to save hight scores for your game, this class is a good choice. You can have any score categry
-	(ie. one categry for Touch Mode and one categry for Tilting Mode). Scores can be sorted ACS
-	or DESC. ScoreManager uses to store your scores.  	
-		
+	If you want to save hight scores for your game, this class is a good choice. You can have many score 
+    categries (ie. one categry for Touch Mode and one categry for Tilting Mode). Scores can be sorted ACS
+	or DESC. ScoreManager uses Config to store your scores.  
+    
+    To create a ScoreManager:
+    ScoreManager *manager = [[ScoreManager alloc] initWithFile:[Utils pathForFileInDocument:@"score.plist"]];
+    score.plist may contains the scores limit (__SCORES_LIMIT__ key) and scores sorting (__SCORES_SORTED__ key).
+    If the values of these keys are not set, 50 is used for scores limit, and 1 (DESC) is used
+    for scores sorting. You can change these values any time with the manager's properties. 
+    
+    To insert a new score:
+    [manager insertScore:1024 name:@"pete" category:@"basic"];
+    [manager save];    
+
+    To retrieve all sorted scores:
+    NSArray *scores = [manager scoresInCategory:@"basic"];
+    This methods returns an array of Score objects. A Score object has name, score, rank, date, category
+    and an extra field.
+    
+
 + CCSlider
 	I write this class to achieve a game music volume control.
 	
@@ -27,8 +62,8 @@ Some classes included in this project:
 + CCBlade 
 	Similar to the knife blade effect you see in famous Fruit Ninja	
 	
-+ Ragdol
-	Ragdol implementation with Box2D
++ Ragdoll
+	Ragdoll implementation with Box2D
 	
 + CCComponent (subclass of CCSprite)
 	I write this class with the idea to encapsulate everything regarding to a game actor. Don't 

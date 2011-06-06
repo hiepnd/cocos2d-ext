@@ -11,7 +11,6 @@
 #import "HomeMenu.h"
 #import "CCBlade.h"
 #import "TouchTrailLayer.h"
-#import "Stencil.h"
 
 @interface HomeContext : CCContext <HomeMenuDelegate>{
 	HomeMenu *_mainMenu;
