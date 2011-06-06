@@ -73,7 +73,6 @@
 		479E2C071324AC09001B5BAF /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 479E2C041324AC09001B5BAF /* Config.m */; };
 		479E2C0C1324ACAB001B5BAF /* AppDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = 479E2C0B1324ACAB001B5BAF /* AppDirector.m */; };
 		479E2C761324B66A001B5BAF /* HomeContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 479E2C751324B66A001B5BAF /* HomeContext.m */; };
-		479E81AB138614C900D42DD4 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 479E81AA138614C900D42DD4 /* README */; };
 		479FD1FB133DA61D007ED348 /* elephant.plist in Resources */ = {isa = PBXBuildFile; fileRef = 479FD1F8133DA61D007ED348 /* elephant.plist */; };
 		479FD1FC133DA61D007ED348 /* elephant.png in Resources */ = {isa = PBXBuildFile; fileRef = 479FD1F9133DA61D007ED348 /* elephant.png */; };
 		479FD1FD133DA61D007ED348 /* elephant_def.plist in Resources */ = {isa = PBXBuildFile; fileRef = 479FD1FA133DA61D007ED348 /* elephant_def.plist */; };
@@ -580,7 +579,6 @@
 		479E2C0B1324ACAB001B5BAF /* AppDirector.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = AppDirector.m; sourceTree = "<group>"; };
 		479E2C741324B66A001B5BAF /* HomeContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeContext.h; sourceTree = "<group>"; };
 		479E2C751324B66A001B5BAF /* HomeContext.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = HomeContext.m; sourceTree = "<group>"; };
-		479E81AA138614C900D42DD4 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		479FD1F8133DA61D007ED348 /* elephant.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = elephant.plist; sourceTree = "<group>"; };
 		479FD1F9133DA61D007ED348 /* elephant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elephant.png; sourceTree = "<group>"; };
 		479FD1FA133DA61D007ED348 /* elephant_def.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = elephant_def.plist; sourceTree = "<group>"; };
@@ -1047,7 +1045,6 @@
 			isa = PBXGroup;
 			children = (
 				47937CFF139CA46000E49B55 /* LICENSE.cocos2d+ext */,
-				479E81AA138614C900D42DD4 /* README */,
 				47AD8AC4130B7DA2003B089D /* Configuration */,
 				506EDAA3102F461B00A389B3 /* cocos2d Sources */,
 				47EE413813090E29005D7AF9 /* cocosext */,
@@ -2546,7 +2543,6 @@
 				47A5E8D713752FF7002ADF35 /* firework.plist in Resources */,
 				47CF6F221384AF3A00C22BC1 /* trail3.plist in Resources */,
 				47CF6F231384AF3A00C22BC1 /* trail3.png in Resources */,
-				479E81AB138614C900D42DD4 /* README in Resources */,
 				47937D00139CA46000E49B55 /* LICENSE.cocos2d+ext in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
