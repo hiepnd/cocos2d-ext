@@ -51,7 +51,7 @@ Some classes/categories included in this project:
     
 
 + CCSlider
-	I write this class to achieve a game music volume control.
+	I write this class to achieve a game music volume control. 
 	
 + GameSound
 	A wrapper of SimpleAudioEngine. The idea is to do everything related to music & sound in this
