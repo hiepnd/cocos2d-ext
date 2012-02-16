@@ -38,11 +38,6 @@
 		4764A0C11345BED200DFCDF1 /* JointsTestContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 4764A0C01345BED200DFCDF1 /* JointsTestContext.m */; };
 		4764A0C51345C02C00DFCDF1 /* HomeMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 4764A0C41345C02C00DFCDF1 /* HomeMenu.m */; };
 		4764A0F11345C53500DFCDF1 /* SimpleMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 4764A0F01345C53500DFCDF1 /* SimpleMenu.m */; };
-		47765E8E133AE489008A4A34 /* xxx.pvr.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47765E8C133AE489008A4A34 /* xxx.pvr.plist */; };
-		47765E8F133AE489008A4A34 /* xxx.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 47765E8D133AE489008A4A34 /* xxx.pvr.ccz */; };
-		47765E9F133AE530008A4A34 /* xxx.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47765E9D133AE530008A4A34 /* xxx.plist */; };
-		47765EA0133AE530008A4A34 /* xxx.pvr in Resources */ = {isa = PBXBuildFile; fileRef = 47765E9E133AE530008A4A34 /* xxx.pvr */; };
-		47765EC0133AE87B008A4A34 /* bg.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 47765EBF133AE87B008A4A34 /* bg.pvr.ccz */; };
 		47765F10133AECC2008A4A34 /* bear_2x2.png in Resources */ = {isa = PBXBuildFile; fileRef = 47765F0F133AECC2008A4A34 /* bear_2x2.png */; };
 		477E721F13419001000F81D3 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 477E721E13419001000F81D3 /* Test.m */; };
 		477E74661341D594000F81D3 /* FollowContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 477E74651341D594000F81D3 /* FollowContext.m */; };
@@ -524,11 +519,6 @@
 		4764A0F01345C53500DFCDF1 /* SimpleMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleMenu.m; sourceTree = "<group>"; };
 		476BEDF21339A21700AF57DD /* b2RopeJoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2RopeJoint.cpp; sourceTree = "<group>"; };
 		476BEDF31339A21700AF57DD /* b2RopeJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2RopeJoint.h; sourceTree = "<group>"; };
-		47765E8C133AE489008A4A34 /* xxx.pvr.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = xxx.pvr.plist; path = /Users/hiepnd/Desktop/Temp/xxx.pvr.plist; sourceTree = "<absolute>"; };
-		47765E8D133AE489008A4A34 /* xxx.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; name = xxx.pvr.ccz; path = /Users/hiepnd/Desktop/Temp/xxx.pvr.ccz; sourceTree = "<absolute>"; };
-		47765E9D133AE530008A4A34 /* xxx.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = xxx.plist; path = /Users/hiepnd/Desktop/Temp/xxx.plist; sourceTree = "<absolute>"; };
-		47765E9E133AE530008A4A34 /* xxx.pvr */ = {isa = PBXFileReference; lastKnownFileType = file; name = xxx.pvr; path = /Users/hiepnd/Desktop/Temp/xxx.pvr; sourceTree = "<absolute>"; };
-		47765EBF133AE87B008A4A34 /* bg.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; name = bg.pvr.ccz; path = /Users/hiepnd/Desktop/Temp/bg.pvr.ccz; sourceTree = "<absolute>"; };
 		47765F0F133AECC2008A4A34 /* bear_2x2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bear_2x2.png; sourceTree = "<group>"; };
 		477E721D13419001000F81D3 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
 		477E721E13419001000F81D3 /* Test.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = Test.m; sourceTree = "<group>"; };
@@ -1200,11 +1190,6 @@
 			isa = PBXGroup;
 			children = (
 				47765F0F133AECC2008A4A34 /* bear_2x2.png */,
-				47765EBF133AE87B008A4A34 /* bg.pvr.ccz */,
-				47765E9D133AE530008A4A34 /* xxx.plist */,
-				47765E9E133AE530008A4A34 /* xxx.pvr */,
-				47765E8C133AE489008A4A34 /* xxx.pvr.plist */,
-				47765E8D133AE489008A4A34 /* xxx.pvr.ccz */,
 			);
 			name = Spritesheet;
 			sourceTree = "<group>";
@@ -2489,11 +2474,6 @@
 				47AC67DA1331F73C00984F19 /* garden2.png in Resources */,
 				47AC67DB1331F73C00984F19 /* garden3.png in Resources */,
 				47AC67DC1331F73C00984F19 /* garden4.png in Resources */,
-				47765E8E133AE489008A4A34 /* xxx.pvr.plist in Resources */,
-				47765E8F133AE489008A4A34 /* xxx.pvr.ccz in Resources */,
-				47765E9F133AE530008A4A34 /* xxx.plist in Resources */,
-				47765EA0133AE530008A4A34 /* xxx.pvr in Resources */,
-				47765EC0133AE87B008A4A34 /* bg.pvr.ccz in Resources */,
 				47765F10133AECC2008A4A34 /* bear_2x2.png in Resources */,
 				4700407C133B05D5005C0653 /* glass_broken.caf in Resources */,
 				4700407D133B05D5005C0653 /* lion_cry.caf in Resources */,
