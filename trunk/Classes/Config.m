@@ -121,6 +121,11 @@ static NSMutableDictionary *_instances = nil;
 	}
 	NSError *err;
 	BOOL ok;
+    
+    if (encrypted) {
+        data = [data AES256EncryptedDataUsingKey: ekey error: nil]; 
+    }
+    
 	ok = [data writeToFile:path_ options:0 error:&err];
 	if(!ok){
 		NSLog(@"Configuration@(save) : Cannot save data at %@ -(%@)",path_,err);
